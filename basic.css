@@ -1,0 +1,12 @@
+  body{
+       background-color: #f4f9f9;
+      }
+  hr{
+     background-color: #999999;
+     width: 90%;
+     border-style: none;
+     height: 2px;
+    }
+  h1,h3{
+        color: #84CBF3;
+       }
