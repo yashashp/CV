@@ -1,0 +1,126 @@
+body{
+      margin: 0;
+      text-align: center;
+     }
+
+.top{
+     margin: 0;
+     padding: 0 0 45px 0;
+    }
+
+h1{
+     padding-top: 50px;
+     margin: 0 auto 0 auto;
+     font-family: 'Birthstone', cursive;
+     font-size: 5.625rem;
+     color: #11999e;
+   }
+
+.profession{
+   font-family: 'Dancing Script', cursive;
+   font-size: 2.5rem;
+   margin: 0 auto 0 auto;
+   color: #468f8f;
+   font-weight: normal;
+  }
+
+h2{
+   font-family: 'Source Sans Pro', sans-serif; 
+   color: #468f8f;
+   margin: 0;
+  }
+
+h3{
+   font-family: 'Source Sans Pro', sans-serif;
+   font-size: 2.5rem;
+   color: #66bfbf;
+   margin: 0 auto 0 auto;
+  }
+.comp{
+      width: 250px;
+      margin: 10px auto 0 auto;
+     }
+
+.greeting-paragraph{
+    margin: 0 auto 0 auto;
+  }
+
+.top{
+     position: relative;
+     background-color: #CCF2F4;
+    }
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 400px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 350px;
+    top: 50px;
+}
+
+.skill-row{
+           margin: 50px auto 50px auto;
+           width: 50%;
+           text-align: left;
+          }
+.profile-img{
+             margin: 15px auto 0 auto;
+             width: 15%;
+            }
+.code-img{
+          margin: 0 30px 0 0;
+          width: 25%;
+          float: left; 
+         }
+
+.game-img{
+          margin: 0 30px 0 0;
+          width: 25%;
+          float: left;
+         }
+hr{
+   margin: 50px auto 50px auto;
+   border: none;
+   border-top: 5px dotted #cccccc;
+   width: 5%;
+  }
+
+.button{
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        background-color: #11999e;
+        color: #ffffff;
+        border-radius: 10px;
+        position: relative;
+        bottom: 30px;
+        top: 30px;
+        padding: 10px 15px;
+        margin: 20px 0 20px 0;
+        text-align: center;
+       }
+.bottom-container{
+                  margin: 100px 0 0 0;
+                  padding-top: 30px;
+                  background-color: #66bfbf;
+                 }
+.footer-link{
+        font-family: sans-serif;
+        font-weight: bold;
+        color: #ffffff;
+        border-radius: 10px;
+        padding: 10px 15px;
+        margin: 20px 0 20px 0;
+        text-align: center;
+        color: #11999e;
+            }
+
+.copy-right{
+            color: #eaf6f6;
+            font-family: 'Roboto', sans-serif;
+            margin: 16px auto 0 auto;
+            padding: 0 0 16px 0;
+           }
