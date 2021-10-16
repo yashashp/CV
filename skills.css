@@ -92,7 +92,12 @@ hr{
                   margin: 100px 0;
                  }
 .skill-row{
+           box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 0px 0px;
            width: 50%;
            margin: 0 auto 0 auto;
            padding: 50px 0;    
           }
+
+.skill-row:hover{
+                 box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                }
