@@ -38,7 +38,7 @@ hr{
        padding: 50px 0; 
        width: 50%;
        margin: 0 auto 0 auto;
-       transition: all 1s;
+       transition: box-shadow 1s;
       }
 
 .about:hover{
