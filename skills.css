@@ -95,7 +95,8 @@ hr{
            box-shadow: rgba(100, 100, 111, 0.2) 0px 0px 0px 0px;
            width: 50%;
            margin: 0 auto 0 auto;
-           padding: 50px 0;    
+           padding: 50px 0; 
+           transition: box-shadow 1s;
           }
 
 .skill-row:hover{
