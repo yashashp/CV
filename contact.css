@@ -117,10 +117,12 @@ p{
           }
 
 .social-link{
+             filter: drop-shadow(0 0 0 #cccccc);
              margin: 0 5px;
              width: 3%;
+             transition: filter 0.2s;
             }
 
-.social{  
-        margin: 50px auto;
-       }
+.social-link:hover{
+                   filter: drop-shadow(0 3px 3px #aaaaaa);
+                  }
