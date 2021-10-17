@@ -71,6 +71,7 @@ hr{
        }
 
 .header-link{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 0px;
   margin: 10px 20px;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -81,9 +82,11 @@ hr{
   background: #66bfbf;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+  transition: all 0.5s;
 }
 
 .header-link:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   background: #11999e;
   text-decoration: none;
 }
