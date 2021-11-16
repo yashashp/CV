@@ -200,6 +200,13 @@ width: 100%;
 .about-details{
   text-align: justify;
 }
+  
+  /* Footer section */
+
+.social-icon{
+margin: 20px 10px;
+font-size: 20px;
+}
 
 #about, #introduction, #skills, #projects{
   padding: 7% 3% !important;
