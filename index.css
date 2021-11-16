@@ -1,0 +1,207 @@
+
+/* Body section */
+
+body{
+  color: #11999e;
+}
+
+/* Navbar section */
+
+nav{
+  padding: 0 10px;
+}
+
+.nav-item{
+  padding: 0 5px;
+  font-size: 18px;
+}
+
+
+/* Introduction section */
+
+h1 {
+  font-family: 'Birthstone', cursive;
+  font-weight: bold;
+  font-size: 100px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 35px;
+  margin: 0 auto;
+}
+
+.introduction-paragraph{
+  line-height: 1.5;
+  margin: 20px auto;
+  width: 85%;
+}
+
+.inner-div{
+text-align: center;
+  }
+
+  .comp{
+  margin: 30px auto;
+  width: 40%;
+  }
+
+  .profileImg {
+    margin: 50px auto 0;
+    width: 15%;
+  }
+
+  .introduction-div {
+
+    margin: auto;
+  }
+
+  #introduction, #skills{
+    background-color: #CCF2F4;
+    padding: 7% 15%;
+  }
+
+/* About Section */
+
+h3{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  margin: auto;
+  text-align: center;
+}
+
+hr{
+   background-color: #ffffff;
+   border: none;
+   border-top: 5px dotted #888888;
+   width: 6% !important;
+   margin: 50px auto !important;
+  }
+
+.about-details{
+text-align: left;
+}
+
+.about-div{
+  margin: 10% auto 0;
+  width: 75%;
+
+}
+
+.about-img, .skills-img{
+  margin: 0 50px 0 0;
+  float: left;
+  width: 28%;
+}
+
+
+.inner-div{
+  margin: 50px 0;
+  width: 100%;
+}
+
+#about, #projects{
+  padding: 7% 15%;
+}
+
+/* Skills section */
+
+#skills{
+  background-color: #CCF2F4;
+  padding: 7% 15%;
+}
+
+
+/* Projects section */
+
+.projects-img{
+  width: 25%;
+  margin: 50px auto;
+}
+
+/* Footer section */
+
+.btn {
+  background: #449d9d;
+  background-image: -webkit-linear-gradient(top, #449d9d, #449d9d);
+  background-image: -moz-linear-gradient(top, #449d9d, #449d9d);
+  background-image: -ms-linear-gradient(top, #449d9d, #449d9d);
+  background-image: -o-linear-gradient(top, #449d9d, #449d9d);
+  background-image: linear-gradient(to bottom, #449d9d, #449d9d);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 20px;
+  width: 20%;
+}
+
+.btn:hover {
+  background: #88dfdf;
+  color: #449d9d;
+  text-decoration: none;
+}
+
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+.social-div{
+  margin: 20px auto;
+}
+
+.social-icon{
+margin: 5px 10px;
+color: #ffffff;
+text-decoration: none;
+}
+
+#footer{
+  color: #ffffff;
+  margin: 0;
+  padding: 7% 15%;
+  background-color: #66bfbf;
+  text-align: center;
+}
+
+@media (max-width: 1110px) {
+
+  /* Introduction section */
+
+  h1 {
+
+    font-size: 75px;
+    margin: 0 auto;
+  }
+
+  h2{
+    font-size: 25px;
+  }
+
+  /* About section */
+
+.about-div{
+width: 100%;
+}
+
+.about-img, .skills-img{
+  float: none;
+  margin: 20px 0;
+  width: 25%;
+}
+
+.about-details{
+  text-align: justify;
+}
+
+#about, #introduction, #skills, #projects{
+  padding: 7% 3% !important;
+}
+}
