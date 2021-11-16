@@ -197,8 +197,14 @@ width: 100%;
   width: 25%;
 }
 
+  /* Projects section */
+  
 .about-details{
   text-align: justify;
+}
+  
+  .project-details{
+    text-align: center;
 }
   
   /* Footer section */
