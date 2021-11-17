@@ -189,12 +189,12 @@ text-decoration: none;
     margin: 0 auto;
   }
 
-  h2{
-    font-size: 50px;
+  h2, h3{
+    font-size: 75px;
   }
 
-  .profileImg{
-    width: 25%;
+  h4{
+    font-size: 50px;
   }
 
 
