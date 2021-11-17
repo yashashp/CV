@@ -1,4 +1,5 @@
 
+
 /* Body section */
 
 body{
@@ -53,7 +54,6 @@ text-align: center;
   }
 
   .introduction-div {
-
     margin: auto;
   }
 
@@ -79,7 +79,7 @@ hr{
    margin: 50px auto !important;
   }
 
-.about-details{
+.about-details, .skills-details{
 text-align: left;
 }
 
@@ -114,6 +114,8 @@ text-align: left;
 
 
 /* Projects section */
+
+
 
 .projects-img{
   width: 25%;
@@ -173,17 +175,34 @@ text-decoration: none;
 
 @media (max-width: 1110px) {
 
+  /* Navbar section */
+
+  nav{
+    padding: 0 50px;
+  }
+
   /* Introduction section */
 
   h1 {
 
-    font-size: 75px;
+    font-size: 150px;
     margin: 0 auto;
   }
 
   h2{
-    font-size: 25px;
+    font-size: 50px;
   }
+
+  .profileImg{
+    width: 25%;
+  }
+
+
+  /* Introduction section */
+
+.introduction-paragraph{
+  font-size: 180%;
+}
 
   /* About section */
 
@@ -197,17 +216,19 @@ width: 100%;
   width: 25%;
 }
 
-  /* Projects section */
-  
-.about-details{
+.about-details, .skills-details{
+  font-size: 180%;
   text-align: justify;
 }
-  
-  .project-details{
+
+
+/* Projects section */
+
+.project-details{
     text-align: center;
 }
-  
-  /* Footer section */
+
+/* Footer section */
 
 .social-icon{
 margin: 20px 10px;
