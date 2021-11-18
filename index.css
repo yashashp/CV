@@ -181,6 +181,10 @@ text-decoration: none;
     padding: 0 50px;
   }
 
+  .nav-link{
+     font-size: 1.5rem !important;
+  }
+  
   /* Introduction section */
 
   h1 {
