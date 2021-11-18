@@ -183,6 +183,7 @@ text-decoration: none;
 
   .nav-link{
      font-size: 2rem !important;
+     margin: 2px auto;
   }
   
   /* Introduction section */
