@@ -17,6 +17,9 @@ nav{
   font-size: 18px;
 }
 
+.navbarDiv{
+  position: fixed;
+}
 
 /* Introduction section */
 
