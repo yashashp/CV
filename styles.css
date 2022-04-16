@@ -1,0 +1,63 @@
+ body {
+   background-color: #B1D0E0;
+   font-family: 'Inter', sans-serif;
+ }
+
+ h2 {
+   font-weight: 400;
+ }
+
+ h3 {
+   font-weight: 200;
+ }
+
+ hr {
+   border: 1px solid #406882;
+ }
+
+ .bca, .puc, .sslc {
+   margin: 5px 0;
+ }
+
+ .candidate-name {
+   display: inline-block;
+ }
+
+ .contact-details {
+   background-color: #406882;
+   color: #B1D0E0;
+   line-height: 0.7;
+   padding: 2%;
+ }
+
+ .core-competencies,.declaration, .projects, .personal-details, .tecnical-skills, .hobbies {
+   margin: 1rem;
+ }
+
+ .details {
+   color: #406882;
+   padding: 2%;
+ }
+
+ .hobbies-list{
+   list-style: none;
+ }
+
+ .job-role {
+   line-height: 0.5;
+ }
+
+ .profile-photo {
+   float: left;
+   margin: 0 1rem 0 0;
+   width: 12%;
+ }
+
+ .skills-name {
+   background-color: #406882;
+   border-radius: 10px;
+   color: #B1D0E0;
+   display: inline-block;
+   margin: 5px;
+   padding: 5px;
+ }
